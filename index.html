@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+    .images{
+      display: flex;
+      align-items: flex-start;
+      transition: all 0.5s;
+    }
+    .images > img{
+      vertical-align: top;
+    }
+    .window{
+      width: 640px;
+      overflow: hidden;
+    }
+		.red{
+		color:red;
+		}
+	</style>
+	
+    
+</head>
+<body>
+<div class="window">
+	<div class="images" id=images>
+		<img src="http://ozp6nmbl9.bkt.clouddn.com/A%20Chinese%20Odyssey1.jpg" width=640px alt="图片1" height=360px>
+		<img src="http://ozp6nmbl9.bkt.clouddn.com/A%20Chinese%20Odyssey2.jpg" width=640px alt="图片2" height=360px>
+		<img src="http://ozp6nmbl9.bkt.clouddn.com/A%20Chinese%20Odyssey3.jpeg" width=640px alt="图片3" height=360px>
+		<img src="http://ozp6nmbl9.bkt.clouddn.com/A%20Chinese%20Odyssey4.jpg" width=640px alt="图片4" height=360px>
+	</div>
+</div>
+<span id=buttons>
+	<span>第1张</span>
+	<span>第2张</span>
+	<span>第3张</span>
+	<span>第4张</span>
+</span>
+<script src="./js/main.js"></script>
+</body>
+</html>
